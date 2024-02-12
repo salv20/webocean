@@ -117,43 +117,26 @@ transform: rotate(40deg) translateY(5px);
   }
 
   .hero-container .box-2{
-    top: 60px;
-    height: 70%;
+    height: 90%;
     width:40%;
-    background: radial-gradient(farthest-side at  95% 60%,   
+    background: radial-gradient(farthest-side at  95% 75%,   
     #0b213f,
-    #0a1f3d,
     #151934,
     #151934
      ); 
   }
-
+.crm-h1{
+  background: -webkit-linear-gradient( #F6F6F7 60%, #c2c3cd 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
   .hero{
     z-index: 10;
     position: relative;
   }
-/* .hero-container{
- color: white; */
 
-    /* background: radial-gradient(closest-side at  20% 55%, 
-    
-    #160c47,
-    #160d47,
-    #160d47,
-      #151934
-     );  */
-     /* background: radial-gradient(farthest-side at  180% 55%, 
-  
-     #151934,
-     #151934,
-     #091b39
-      
-      );  */
-      /* background:#151934 ;
- 
-} */
   @layer base{
     .section{
       @apply py-6 md:h-screen md:py-10

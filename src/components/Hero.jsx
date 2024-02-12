@@ -14,7 +14,8 @@ const Hero = () => {
             <div className=" flex flex-col gap-y-6 items-center text-center">
        <motion.h1
         className=" 
-       text-bold leading-tight text-2xl sm:text-[40px] lg:text-[45px] xl:text-[50px] font-bold "
+        crm-h1
+       text-bold leading-tight text-2xl sm:text-[40px] lg:text-[45px] xl:text-[50px] font-bold"
        initial='initial'
        variants={fadeIn('up',0.1)}
        whileInView='animate'
@@ -47,7 +48,6 @@ const Hero = () => {
         </motion.div>
             </div>
         </div>
-        <div className="line"></div>
     </section>
   )
 }

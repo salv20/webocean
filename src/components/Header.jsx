@@ -11,6 +11,12 @@ useEffect(()=>{
           })  
         }
     })
+
+    if (open) {
+     document.querySelector('body').style.overflowY='hidden' 
+    }else{
+      document.querySelector('body').style.overflowY='visible' 
+    }
 })
 
   return (
@@ -48,9 +54,14 @@ useEffect(()=>{
 
 {/* SMALL SCREENS */}
 
-<nav className={`${!open?' -translate-y-[60rem] opacity-0':'translate-y-[0px]'} z-20 transition-all duration-700 fixed top-[60px] left-0 md:hidden bg-white w-full h-full`}>
-<div className="container mx-auto pt-6">
-<ul className="capitalize w-fit font-bold text-primary flex flex-col gap-y-8">
+<nav className={`${!open?' -translate-y-[60rem] opacity-0':'translate-y-[0px]'} z-20 transition-all duration-700 fixed top-[60px] left-0 md:hidden bg-white w-full h-full`}
+
+>
+<div className="container mx-auto pt-6 ">
+<ul 
+className="capitalize w-fit font-bold text-primary flex flex-col gap-y-8"
+onClick={()=>setOpen(false) }
+>
     <a href="#">home</a>
     <a href="#">about</a>
     <a href="#">features</a>
@@ -58,7 +69,10 @@ useEffect(()=>{
     <a href="#">blogs</a>
 </ul>
 
-<button className="btnSmall absolute bottom-28 py-4 font-bold">Get a demo</button>
+<button
+ className="btnSmall absolute bottom-28 py-4 font-bold"
+ onClick={()=>setOpen(false) }
+ >Get a demo</button>
 </div>
 </nav>
 <div className="line"></div>
