@@ -61,6 +61,7 @@ useEffect(()=>{
 <button className="btnSmall absolute bottom-28 py-4 font-bold">Get a demo</button>
 </div>
 </nav>
+<div className="line"></div>
     </header>
   )
 }

@@ -16,8 +16,12 @@ padding:{
       },
       colors:{
         primary:' #151934',
-        navCol:'#8F9BB7'
+        navCol:'#8F9BB7',
+        secondary:'#8F9BB7',
 
+      },
+      fontFamily:{
+        Saira: '"Saira Condensed", sans-serif',
       }
     },
   },

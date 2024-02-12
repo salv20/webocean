@@ -1,0 +1,20 @@
+export const fadeIn=(direction,delay)=>{
+    return{
+        initial:{
+            y:direction==='up'?60:direction==='down'?-60:0,
+            x:direction==='left'?60:direction==='right'?-60:0,
+            opacity:0,
+        },
+        animate:{
+            y:0,
+            x:0,
+            opacity:0.8,
+            transition:{
+                duration:1,
+                type:'tween',
+                staggerChildren:0.5,
+                delay:delay,
+            }
+        }
+    }
+}

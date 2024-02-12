@@ -8,7 +8,7 @@
 }
 
 .btnSmall{
-  padding:6px 10px;
+  padding:7px 18px;
   background: #7214FF;
  color: white;
  border-radius: 36px;
@@ -20,6 +20,52 @@
   #ff56f6 117.04%);
   transition: all 0.5s;
 }
+
+.line{
+  background: #191f42;
+  height: 1px;
+}
+
+/*  */
+.btn-1 {
+  background-image: linear-gradient(92deg,
+  #151934 52%,
+  #151934  8%,
+  #151934  49%,
+
+  );
+  border: 1.2px solid #282D45;
+  border-radius: 30px;
+  padding:5px 18px;
+  position: relative;
+}
+
+.slide-btn, .slide-btn::after {
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.slide-btn::before, .slide-btn::after {
+  background-image: linear-gradient(100deg, #7214FF , #223ad6);
+  border-radius: 30px;
+  content: '';
+  position: absolute;
+}
+
+.btn-1::after {
+  height: 0%;
+  top: 0%;
+  left: 0;
+  width: 100%;
+}
+
+.btn-1:hover::after {
+  height: 100%;
+  opacity: 0.3;
+}
+
 .bar{
   width: 25px;
   transition: all 0.8s ease;
@@ -59,4 +105,57 @@ transform: rotate(40deg) translateY(5px);
   transition: all 0.5s ease;
   transform: rotate(-40deg) translateY(-3.5px) translateX(-1px);
   
+  }
+  .hero-container .box-1{
+    background: radial-gradient(closest-side at  24% 45%,   
+    #160c47,
+    #160d47,
+    #151934
+     ); 
+    height: 80%;
+    width: 100%;
+  }
+
+  .hero-container .box-2{
+    top: 60px;
+    height: 70%;
+    width:40%;
+    background: radial-gradient(farthest-side at  95% 60%,   
+    #0b213f,
+    #0a1f3d,
+    #151934,
+    #151934
+     ); 
+  }
+
+
+
+  .hero{
+    z-index: 10;
+    position: relative;
+  }
+/* .hero-container{
+ color: white; */
+
+    /* background: radial-gradient(closest-side at  20% 55%, 
+    
+    #160c47,
+    #160d47,
+    #160d47,
+      #151934
+     );  */
+     /* background: radial-gradient(farthest-side at  180% 55%, 
+  
+     #151934,
+     #151934,
+     #091b39
+      
+      );  */
+      /* background:#151934 ;
+ 
+} */
+  @layer base{
+    .section{
+      @apply py-6 md:h-screen md:py-10
+    }
   }
