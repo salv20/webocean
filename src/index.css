@@ -119,16 +119,21 @@ transform: rotate(40deg) translateY(5px);
   .hero-container .box-2{
     height: 90%;
     width:40%;
-    background: radial-gradient(farthest-side at  95% 75%,   
+    background: radial-gradient(farthest-side at  85% 70%,   
+    #0b213f,
     #0b213f,
     #151934,
-    #151934
+    #151934,
+     #151934
      ); 
   }
 .crm-h1{
   background: -webkit-linear-gradient( #F6F6F7 60%, #c2c3cd 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Lexend", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 
@@ -139,6 +144,9 @@ transform: rotate(40deg) translateY(5px);
 
   @layer base{
     .section{
-      @apply py-6 md:h-screen md:py-10
+      @apply py-8 md:py-12
+    }
+    .heading-text{
+     @apply crm-h1 leading-tight text-2xl sm:text-[26px] lg:text-[32px] xl:text-[35px]
     }
   }

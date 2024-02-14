@@ -4,7 +4,7 @@ import Hero from "./components/Hero"
 
 const App = () => {
   return (
-    <div className=" relative bg-primary">
+    <div className=" relative">
       <Header/>
       <Hero/>
       <Feature/>

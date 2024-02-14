@@ -1,4 +1,4 @@
-export const fadeIn=(direction,delay)=>{
+export const fadeIn=(direction,delay,duration=1)=>{
     return{
         initial:{
             y:direction==='up'?60:direction==='down'?-60:0,
@@ -10,10 +10,29 @@ export const fadeIn=(direction,delay)=>{
             x:0,
             opacity:0.8,
             transition:{
-                duration:1,
+                duration:duration,
                 type:'tween',
-                staggerChildren:0.5,
+                staggerChildren:0.3,
                 delay:delay,
+            }
+        }
+    }
+}
+
+export const item=(direction,duration)=>{
+    return{
+        initial:{
+            y:direction==='up'?30:direction==='down'?-30:0,
+            x:direction==='right'?30:direction==='left'?-30:0,
+            opacity:0
+        },
+        animate:{
+            opacity:1,
+            y:0,
+            x:0,
+            transition:{
+                type:'tween',
+                duration:duration
             }
         }
     }
