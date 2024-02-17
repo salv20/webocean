@@ -14,6 +14,10 @@ padding:{
       screens:{
         sl:'720px',
       },
+      backgroundImage:{
+        encrypt:"linear-gradient( 130deg, #1c164b  10%, #111335 30%, #111335 50%,#0e1330 60%,#162744 75%,#132c4c 85%)",
+        encryptLG:"linear-gradient( 50deg, #1c164b  10%, #111335 30%, #111335 50%,#0e1330 60%,#162744 75%,#132c4c 85%)",
+      },
       fontFamily:{
         Lexend: "Lexend"
       },
