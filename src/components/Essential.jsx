@@ -54,7 +54,7 @@ const Essential = () => {
 {/*  */}
 <motion.article
  variants={item('up',0.5)}
- className="bg-encrypt lg:bg-encryptLG py-20 px-10 flex flex-col lg:flex-row items-center mt-6 gap-16 border-[1px] border-[#282D45] rounded-lg">
+ className="bg-encrypt lg:bg-encryptLG py-10 px-5 md:py-20 md:px-10 flex flex-col lg:flex-row items-center mt-6 gap-16 border-[1px] border-[#282D45] rounded-lg">
 <div className=" flex flex-col gap-6 items-center lg:items-start text-center lg:text-left ">
 <h3
 className=" crm-h1 leading-tight  text-xl md:text-[24px] lg:text-[30px]"
