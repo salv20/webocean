@@ -136,10 +136,21 @@ transform: rotate(40deg) translateY(5px);
   font-style: normal;
 }
 
-
   .hero{
     z-index: 10;
     position: relative;
+  }
+
+  .end-end{
+   background-image:linear-gradient(
+   30deg,
+      #1d1345  15%,
+      #111337 40%,
+      #0e1330 60%,
+      #0e1a38 70%,
+      #172744 80%,
+      #122a4b 90%
+   );
   }
 
   @layer base{

@@ -23,15 +23,14 @@ const Essential = () => {
             <h3 className="heading-text">Essential apps that protect your</h3>
 
 </div>
-<div className="grid grid-cols-2 sm:flex mx-auto gap-8">
-    {/* <div className="grid grid-cols-2 gap-y-6 mx-auto sm:grid-cols-4"> */}
+<div className="grid grid-cols-2 sm:flex mx-auto gap-2 sm:gap-8">
 {
     protect.icons.map((icon,index)=>(
         <div className="
-        flex crm-h1 leading-tight text-xl md:text-[24px] lg:text-[32px]
+        flex crm-h1 leading-tight text-lg md:text-[24px] lg:text-[32px]
         gap-2 items-center capitalize" key={index}>
 <div>
-    <img src={icon} alt="" />
+    <img src={icon} alt="" className="h-[20px] sm:h-[30px]" />
 </div>
 <h3>{protect.app[index]}</h3>
         </div>
@@ -40,10 +39,10 @@ const Essential = () => {
     </div>
 
 {/*  */}
-<article className="flex flex-col md:flex-row items-center gap-12">
-<div className=" flex flex-col gap-6 items-center md:items-start text-center md:text-left">
+<article className="py-20 px-10 end-end flex flex-col md:flex-row items-center mt-6 gap-16 border-[1px] border-[#282D45] rounded-lg">
+<div className=" flex flex-col gap-6 items-center md:items-start text-center md:text-left ">
 <h3
-className=" crm-h1 leading-tight text-xl md:text-[24px] lg:text-[30px]"
+className=" crm-h1 leading-tight  text-xl md:text-[24px] lg:text-[30px]"
 >End-to-end encrypted inbox and messages</h3>
 
 <p className="text-secondary">
@@ -57,6 +56,7 @@ Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor mauris viverra se
 <div className="">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, laboriosam quidem. Unde et nesciunt blanditiis amet soluta error deleniti inventore!
 </div>
+
 </article>
 {/*  */}
         </div>
