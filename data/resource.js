@@ -9,11 +9,11 @@ export const featureData={
   ],
   header:[
 'User information',
-'deal tracking',
-'pipeline management',
-'reporting dashboard',
-'meeting scheduling',
-'emial tracking'
+'Deal tracking',
+'Pipeline management',
+'Reporting dashboard',
+'Meeting scheduling',
+'Emial tracking'
   ],
   content:[
     'Borem ipsum dolor sit amet consectetur. Turpis tristique nulla posuere et amet arcu dictum ultricies convallis.',

@@ -4,7 +4,7 @@ import { featureData } from '../../data/resource'
 
 const Feature = () => {
   return (
-    <section className="section bg-primary shadow-lg">
+    <section className="section bg-primary ">
       <div className="container mx-auto">
         <div className=" text-secondary flex flex-col gap-10">
             <motion.div 
@@ -43,7 +43,7 @@ const Feature = () => {
 </div>
 
 <div className="flex flex-col gap-3">
-<h3 className="font-Lexend text-white lg:text-xl">{featureData.header[index]}</h3>
+<h3 className="font-Lexend text-white text-lg lg:text-xl">{featureData.header[index]}</h3>
 
 <p>{featureData.content[index]}</p>
 
