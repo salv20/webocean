@@ -1,3 +1,5 @@
+import {FaArrowUp} from 'react-icons/fa'
+
 import {motion} from 'framer-motion'
 import { fadeIn,item } from '../../animation/Variants'
 const protect={
@@ -54,7 +56,7 @@ const Essential = () => {
 {/*  */}
 <motion.article
  variants={item('up',0.5)}
- className="bg-encrypt lg:bg-encryptLG py-10 px-5 md:py-20 md:px-10 flex flex-col lg:flex-row items-center mt-6 gap-16 border-[1px] border-[#282D45] rounded-lg">
+ className="bg-encrypt lg:bg-encryptLG py-10 px-5 md:px-10 flex flex-col lg:flex-row items-center mt-6 gap-12 border-[1px] border-[#282D45] rounded-lg">
 <div className=" flex flex-col gap-6 items-center lg:items-start text-center lg:text-left ">
 <h3
 className=" crm-h1 leading-tight  text-xl md:text-[24px] lg:text-[30px]"
@@ -64,16 +66,16 @@ className=" crm-h1 leading-tight  text-xl md:text-[24px] lg:text-[30px]"
 Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor mauris viverra sed volutpat mauris. Amet nisi amet commodo adipiscing ut imperdiet nunc.
 </p>
 
-<button className="btn-1 w-fit slide-btn capitalize font-semibold sm:h-10 text-secondary">learn more</button>
+<button className="btn-1 w-fit slide-btn capitalize font-semibold sm:h-10 text-white">learn more</button>
 
 </div>
 
 <div className=" w-full xl:w-fit ">
-    <img src="/Ellipse 10.png" alt="" className='border-[1px] border-[#282D45] rounded-lg' />
+    <img src="/Ellipse 10.png" alt="" className='border-[1px] border-[#282D45] rounded-lg md:h-[450px] w-full lg:h-full' />
 </div>
 
 </motion.article>
-{/*  */}
+
         </motion.div>
         </div> 
     </section>
