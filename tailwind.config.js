@@ -19,6 +19,7 @@ padding:{
         encryptLG:"linear-gradient( 50deg, #1c164b  10%, #111335 30%, #111335 50%,#0e1330 60%,#162744 75%,#132c4c 85%)",
         auditLG:"linear-gradient( 145deg,#181344 10%, #0f1332 40%, #0f1332 70%, #0f1f3d 115%)",
         audit:"linear-gradient( 50deg,#0f1f3d 5%, #0f1332 40%, #0f1332 70%, #0f1f3d 85%)",
+        sub:'url(/subs.jpg)'
       },
       fontFamily:{
         Lexend: "Lexend"

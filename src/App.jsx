@@ -3,6 +3,7 @@ import Essential from "./components/Essential"
 import Feature from "./components/Feature"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Subscribe from "./components/Subscribe"
 import Testimony from "./components/Testimony"
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Essential/>
       <Audit/>
       <Testimony/>
+      <Subscribe/>
     </div>
   )
 }
