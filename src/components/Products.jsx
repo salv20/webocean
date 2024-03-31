@@ -14,14 +14,14 @@ Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibe
 </div>
 
 
-<div className="bg-[#0e1330] flex flex-col gap-4 sm:w-5/6 mx-auto px-4 pt-2 rounded-t-lg">
+<div className="bg-[#0e1330] flex flex-col gap-4 w-full sm:w-5/6 mx-auto px-4 pt-2 rounded-t-lg">
   <h3 className=" capitalize font-Lexend text-[#F6F6F7]">new messages</h3>
 
   <form action="" className="flex flex-col gap-4 new-form">
 
 <div className="relative">
   <label htmlFor="">to</label>
-  <p className="hidden sm:flex w-32 items-center text-sm py-0.5 px-1.5 relative left-2 mb-1 rounded-xl bg-[#282d45]  gap-2">
+  <p className="flex absolute sm:relative  w-20 sm:w-32 items-center sm:left-2 sm:mb-1 top-8 sm:top-0 text-sm py-0.5 px-1.5 rounded-xl bg-[#282d45]  gap-2">
   Sajib H.
   <span className='text-[12px] cursor-pointer text-[#77829d]'><FaTimes/></span>
   </p>
@@ -54,7 +54,7 @@ Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibe
 </p>
 </div> 
     <div>
-      <img src="Group 60.png" alt="" className='w-full lg:h-[198px]' />
+      <img src="Group 60.png" alt="" className='w-full h-40 sm:h-full lg:h-[198px]' />
     </div>
 </div>
 

@@ -4,12 +4,10 @@ const Audit = () => {
   return (
     <section className="bg-[#151934] py-5">
         <div className="container mx-auto ">
-
-            <div className=" bg-encrypt lg:bg-encryptLG py-10 px-5 md:px-10 flex flex-col gap-6">
+            <div className="bg-audit sm:bg-auditLG py-10 px-5 md:px-10 flex flex-col gap-6">
  
 
  <div className=" flex flex-col gap-12 sm:flex-row items-center justify-between">
-
  <article className='flex flex-col gap-8' >
     <div className="flex flex-col gap-4 text-center sm:text-left">
     <h3
