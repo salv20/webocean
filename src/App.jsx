@@ -1,3 +1,4 @@
+import Audit from "./components/Audit"
 import Essential from "./components/Essential"
 import Feature from "./components/Feature"
 import Header from "./components/Header"
@@ -10,6 +11,7 @@ const App = () => {
       <Hero/>
       <Feature/>
       <Essential/>
+      <Audit/>
     </div>
   )
 }

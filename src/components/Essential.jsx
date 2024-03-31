@@ -1,4 +1,3 @@
-import {FaArrowUp} from 'react-icons/fa'
 
 import {motion} from 'framer-motion'
 import { fadeIn,item } from '../../animation/Variants'
@@ -75,6 +74,18 @@ Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor mauris viverra se
 </div>
 
 </motion.article>
+
+
+
+<motion.div
+     className="flex gap-x-10 justify-center"
+     initial='initial'
+     variants={fadeIn('up',0.3)}
+     whileInView='animate'
+     >
+         <button className="btnSmall font-semibold">Get a started</button>
+         <button className="btn-1 slide-btn text-white">Browse all feature</button>
+    </motion.div>
 
         </motion.div>
         </div> 
