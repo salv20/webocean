@@ -157,6 +157,26 @@ width: 100%;
     color: #4e5672;
     }
 
+    .box-1{
+      bottom: 0;
+      border-image: repeating-linear-gradient(30deg, #352c62,#3d506a, #2a3a4a) 20;
+      border-width: 10px;
+      border-top: none;
+    }
+
+    .box-2{
+      bottom: 0;
+      border-image: repeating-linear-gradient(30deg, #1f164d,#1f164d, #1d205c,#101947, #101947) 20;
+      border-width: 10px;
+      border-top: none;
+    }
+    
+    .box-3{
+      bottom: 0;
+      border-image: repeating-linear-gradient(30deg, #163050,#193252, #303564,#1e3e45, #1e3e45) 20;
+      border-width: 10px;
+      border-top: none;
+    }
   @layer base{
     .section{
       @apply py-8 md:py-12
