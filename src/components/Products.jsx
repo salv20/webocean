@@ -5,7 +5,7 @@ const Products = () => {
     <div className="bg-[#060b27] border-[2px] border-[#282d45] overflow-hidden rounded-md  px-6 pt-4 text-white flex flex-col gap-6">
 <div className="flex flex-col gap-2">
 <h3
-className="font-bold text-lg md:text-[20px] lg:text-[26px]"
+className="font-bold text-lg md:text-[20px]"
 >Product Mail</h3>
 
 <p className="text-secondary">
@@ -46,7 +46,7 @@ Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibe
   <div className="bg-[#060b27] border-[2px] border-[#282d45] overflow-hidden rounded-md px-6 pt-4 text-white flex flex-col gap-6"> 
 <div className="flex flex-col gap-2">
 <h3
-className="font-bold text-lg md:text-[20px] lg:text-[26px]"
+className="font-bold text-lg md:text-[20px]"
 >Product UI</h3>
 
 <p className="text-secondary">
