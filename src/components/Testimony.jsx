@@ -1,7 +1,7 @@
 
 const Testimony = () => {
   return (
-  <section className="bg-[#151934] py-5">
+  <section className="bg-[#151934] py-5 testimony">
     <div className="container mx-auto">
     <div className=" flex flex-col gap-8">
       
@@ -95,8 +95,16 @@ Sed ut diam amet accumsan in. Elementum lorem aliquam venenatis amet sit posuere
 
 
 {/*  */}
-
     </article>
+<div className=" flex items-center justify-center w-full gap-2">
+<button className=" hover:-translate-x-1 transition-all duration-200">
+<img src="/arrow-right.png" alt="" />
+</button>
+<button className=" hover:translate-x-1 transition-all duration-200">
+<img src="/Right Arrow.png" alt="" />
+</button>
+</div>
+
     </div>
 
     </div>
