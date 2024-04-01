@@ -177,6 +177,16 @@ width: 100%;
       border-width: 10px;
       border-top: none;
     }
+
+.overview{
+  background: radial-gradient(closest-side at  35% 50%, 
+  #160d47,
+  #060b27
+   ); 
+
+}
+
+
   @layer base{
     .section{
       @apply py-8 md:py-12
