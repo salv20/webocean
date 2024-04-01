@@ -25,7 +25,8 @@ padding:{
         Lexend: "Lexend"
       },
       colors:{
-        primary:' #151934',
+        primary:'#060b27',
+        // primary:' #151934',
         navCol:'#8F9BB7',
         secondary:'#8F9BB7',
         

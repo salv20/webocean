@@ -110,7 +110,7 @@ transform: rotate(40deg) translateY(5px);
     background: radial-gradient(closest-side at  24% 45%,   
     #160c47,
     #160d47,
-    #151934
+    #060b27
      ); 
     height: 80%;
     width: 100%;
@@ -122,9 +122,9 @@ transform: rotate(40deg) translateY(5px);
     background: radial-gradient(farthest-side at  85% 70%,   
     #0b213f,
     #0b213f,
-    #151934,
-    #151934,
-     #151934
+    #060b27,
+    #060b27,
+     #060b27
      ); 
   }
 .crm-h1{

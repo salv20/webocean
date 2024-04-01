@@ -1,7 +1,7 @@
 
 const Testimony = () => {
   return (
-  <section className="bg-[#151934] py-5 testimony">
+  <section className="bg-primary py-5 testimony">
     <div className="container mx-auto">
     <div className=" flex flex-col gap-8">
       

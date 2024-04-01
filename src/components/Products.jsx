@@ -2,7 +2,7 @@ import {FaTimes} from 'react-icons/fa'
 const Products = () => {
   return (
   <article className="flex flex-col gap-6 lg:flex-row">
-    <div className="bg-[#060b27] border-[2px] border-[#282d45] overflow-hidden rounded-md  px-6 pt-4 text-white flex flex-col gap-6">
+    <div className="bg-primary border-[2px] border-[#282d45] overflow-hidden rounded-md  px-6 pt-4 text-white flex flex-col gap-6">
 <div className="flex flex-col gap-2">
 <h3
 className="font-bold text-lg md:text-[20px]"
@@ -43,7 +43,7 @@ Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibe
 
 {/* PART 2 */}
 
-  <div className="bg-[#060b27] border-[2px] border-[#282d45] overflow-hidden rounded-md px-6 pt-4 text-white flex flex-col gap-6"> 
+  <div className="bg-primary border-[2px] border-[#282d45] overflow-hidden rounded-md px-6 pt-4 text-white flex flex-col gap-6"> 
 <div className="flex flex-col gap-2">
 <h3
 className="font-bold text-lg md:text-[20px]"

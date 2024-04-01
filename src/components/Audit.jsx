@@ -2,7 +2,7 @@ import Products from "./Products"
 
 const Audit = () => {
   return (
-    <section className="bg-[#151934] py-5">
+    <section className="bg-primary py-5">
         <div className="container mx-auto ">
             <div className="bg-audit sm:bg-auditLG py-10 px-5 md:px-10 flex flex-col gap-6">
  
