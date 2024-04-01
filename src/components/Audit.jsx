@@ -1,10 +1,18 @@
 import Products from "./Products"
 
+import {motion} from 'framer-motion'
+import { fadeIn } from '../../animation/Variants'
+
 const Audit = () => {
   return (
-    <section className="bg-primary py-5">
+    <section 
+    className="bg-primary py-5">
         <div className="container mx-auto ">
-            <div className="bg-audit sm:bg-auditLG py-10 px-5 md:px-10 flex flex-col gap-6">
+            <motion.div 
+               variants={fadeIn('up',0.3,1.2)}
+               initial="initial"
+               whileInView={'animate'} 
+            className="bg-audit sm:bg-auditLG py-10 px-5 md:px-10 flex flex-col gap-6">
  
 
  <div className=" flex flex-col gap-12 sm:flex-row items-center justify-between">
@@ -30,7 +38,7 @@ className="crm-h1 leading-tight  text-xl md:text-[24px] lg:text-[30px]"
 
 
 <Products/>
-            </div>
+            </motion.div>
         </div>
     </section>
   )

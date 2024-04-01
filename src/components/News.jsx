@@ -1,3 +1,6 @@
+import {motion} from 'framer-motion' 
+import { fadeIn,item } from '../../animation/Variants'
+
 const data=[
     {
 src:'/Blog image.png',
@@ -31,13 +34,18 @@ const News = () => {
 <button className="btn-1 w-fit btnSmall text-sm capitalize font-semibold sm:h-8 text-white">Browse all news</button>
 </div>
 
-<article className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+<motion.article
+variants={fadeIn("up",0.5,3)}
+whileInView={'animate'}
+initial='initial'
+className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
     {
 data.map((db,index)=>(
 
-<div className="rounded-lg flex flex-col gap-4 bg-[#0e1330] p-4" key={index}>
+<motion.div
+    variants={item('up',0.5)} 
+    className="rounded-lg flex flex-col gap-4 bg-[#0e1330] p-4" key={index}>
     <img src={db.src} alt="" />
-
     <div className="">
         <h3 className="text-[#F6F6F7] text-lg md:text-xl font-bold ">
 {db.title}
@@ -59,20 +67,15 @@ data.map((db,index)=>(
 </div>
 </div>
 
-</div>
+</motion.div>
 
 ))
 
-
     }
 
-
-
-</article>
-
+</motion.article>
 
             </div>
-
         </div>
     </section>
   )

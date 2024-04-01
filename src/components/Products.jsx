@@ -2,7 +2,7 @@ import {FaTimes} from 'react-icons/fa'
 const Products = () => {
   return (
   <article className="flex flex-col gap-6 lg:flex-row">
-    <div className="bg-primary border-[2px] border-[#282d45] overflow-hidden rounded-md  px-6 pt-4 text-white flex flex-col gap-6">
+    <div className="bg-primary border-[2px] border-[#282d45] overflow-hidden rounded-md px-4 sm:px-6 pt-4 text-white flex flex-col gap-6">
 <div className="flex flex-col gap-2">
 <h3
 className="font-bold text-lg md:text-[20px]"
@@ -14,7 +14,7 @@ Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibe
 </div>
 
 
-<div className="bg-[#0e1330] flex flex-col gap-4 w-full sm:w-5/6 mx-auto px-4 pt-2 rounded-t-lg">
+<div className="bg-[#0e1330] flex flex-col gap-4 w-full sm:w-5/6 mx-auto px-2 sm:px-4 pt-2 rounded-t-lg">
   <h3 className=" capitalize font-Lexend text-[#F6F6F7]">new messages</h3>
 
   <form action="" className="flex flex-col gap-4 new-form">
@@ -25,7 +25,7 @@ Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibe
   Sajib H.
   <span className='text-[12px] cursor-pointer text-[#77829d]'><FaTimes/></span>
   </p>
-  <input type="text" placeholder="cc bcc" className=" placeholder:text-right placeholder:uppercase placeholder:text-[#4e5672] placeholder:font-semibold" />
+  <input type="text" placeholder="cc bcc" className="placeholder:text-right placeholder:uppercase placeholder:text-[#4e5672] placeholder:font-semibold" />
   
 </div>
 <div className="">
@@ -43,7 +43,7 @@ Gonsectetur eque nec nunc facilisis tellus tincidunt. Malesuada maecenas ac bibe
 
 {/* PART 2 */}
 
-  <div className="bg-primary border-[2px] border-[#282d45] overflow-hidden rounded-md px-6 pt-4 text-white flex flex-col gap-6"> 
+  <div className="bg-primary border-[2px] border-[#282d45] overflow-hidden rounded-md px-2 sm:px-6 pt-4 text-white flex flex-col gap-6"> 
 <div className="flex flex-col gap-2">
 <h3
 className="font-bold text-lg md:text-[20px]"
