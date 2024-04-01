@@ -61,7 +61,7 @@ Rorem ipsum dolor sit amet consectetur. Ac quam sem mi nibh volutpat enim pellen
 
 <aside className='box-design relative'>
 
-     <div className="p-2 flex relative z-50 pb-2 lg:pb-[30px] flex-col gap-4 bg-[#0e1330] mx-2 rounded-t-md shadow-lg border-2 border-[#0e1330]">
+     <div className="p-2 flex relative z-50 pb-2 lg:pb-[30px] flex-col gap-4 bg-[#0e1330] mx-2 mb-2 rounded-t-md shadow-lg border-2 border-[#0e1330]">
 
         <div className="flex items-center gap-2">
         <img src="Avatar-1.png" alt="" />

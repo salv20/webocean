@@ -33,7 +33,7 @@ const options={
 const Overview = () => {
   return (
   <section className="overview border-t-4 border-primary">
-    <div className="container mx-auto py-10">
+    <div className="container mx-auto py-0 md:py-5">
 
 <div className=" flex flex-col gap-8">
 
