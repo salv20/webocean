@@ -75,7 +75,24 @@ Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor mauris viverra se
 
 </motion.article>
 
+<article>
 
+    <div className="hidden xl:block">
+        <img src="Grid.png" alt="" className='w-full' />
+    </div>
+
+<div className="flex flex-col gap-6 sm:flex-row xl:hidden">
+<div>
+<img src="Card1.png" alt="" className=' w-full' />
+</div>
+
+<div>
+<img src="Card.png" alt="" className=' w-full' />
+
+</div>
+</div>
+
+</article>
 
 <motion.div
      className="flex gap-x-10 justify-center"
@@ -88,6 +105,7 @@ Rorem ipsum dolor sit amet consectetur. Proin dignissim tortor mauris viverra se
     </motion.div>
 
         </motion.div>
+
         </div> 
     </section>
   )

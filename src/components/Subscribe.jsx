@@ -1,7 +1,7 @@
 
 const Subscribe = () => {
   return (
-    <section className='bg-[#060b27] pb-10'>
+    <section className='bg-[#060b27] py-14'>
       <div className="mx-auto container">
         <div className="bg-sub bg-no-repeat bg-cover bg-center mx-auto py-8 sm:py-14 w-11/12 sm:w-4/5 xl:w-3/4">
 

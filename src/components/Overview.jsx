@@ -32,7 +32,7 @@ const options={
 }
 const Overview = () => {
   return (
-  <section className="overview">
+  <section className="overview border-t-4 border-primary">
     <div className="container mx-auto py-10">
 
 <div className=" flex flex-col gap-8">
@@ -45,7 +45,7 @@ const Overview = () => {
             <p className="mt-3 text-[6px] text-[#7214ff]"><FaCircle/></p>
         </div>
 
-<div className="bg-[#0e1330] px-4 py-8 sm:p-8 flex flex-col gap-4">
+<div className="bg-[#0e1330] px-4 py-8 sm:p-8 flex flex-col gap-4 border-[0.5px] rounded-md border-[#282D45]">
     <h3 className="text-[#F6F6F7] text-lg md:text-xl font-bold "> Subscribe to our newsletter</h3>
     <form action="" className="flex flex-col gap-4 w-11/12 mx-auto sm:w-full">
         <input type="email" name="0" id="" 

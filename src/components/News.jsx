@@ -18,7 +18,7 @@ text:'Ramet consectetur. Est porttitor mattis pharetra sit id viverra. Vivamus m
 ]
 const News = () => {
   return (
-    <section className="bg-primary">
+    <section className="bg-primary pb-6">
         <div className="mx-auto container py-10">
 
             <div className="flex flex-col gap-8">
